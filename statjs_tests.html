@@ -8,9 +8,28 @@
 <body>
 
 <script>
-    var list = [1,2,3,4,5,6,6,7,7,8,5,3,6,5,6,6,8,4,3,13];
-    console.log("mean: " + StatJS.mean(list));
-    console.log("median: " + StatJS.median(list));
+    var list = [8.4, 4.39, 3.38, 13.7, 6.6, 6.3, 7.1, 7.8, 8.2, 5.2, 3.0,
+                6.12, 5.1, 6.12, 1.2, 2.1, 3.4, 4.2, 5.1, 8.1, 3.92];
+    console.log("Mean: " + StatJS.mean(list));
+    console.log("Median: " + StatJS.median(list));
+    console.log("Range: " + StatJS.range(list));
+    console.log("Mode: " + StatJS.mode(list, 4));
+    console.log("Perecentile 25: " + StatJS.percentile(list, 25));
+    console.log("Perecentile 70: " + StatJS.percentile(list, 70));
+    console.log("Standard deviation: " + StatJS.stdev(list));
+    console.log("Mean deviation: " + StatJS.meandev(list));
+
+    console.log("\n");
+    var list2 = [16,16,16,17,17,1,8,8,9,9,10,10,11,12,12,
+        13,14,9,9,9,9,14,15,15,16,4,4,5,5,5,6,7,8,17,18,1,1,18];
+    console.log("Mean: " + StatJS.mean(list2));
+    console.log("Median: " + StatJS.median(list2));
+    console.log("Range: " + StatJS.range(list2));
+    console.log("Mode: " + StatJS.mode(list2, 4));
+    console.log("Perecentile 25: " + StatJS.percentile(list2, 25));
+    console.log("Perecentile 75: " + StatJS.percentile(list2, 75));
+    console.log("Standard deviation: " + StatJS.stdev(list2));
+    console.log("Mean deviation: " + StatJS.meandev(list2));
 
 </script>
 </body>
