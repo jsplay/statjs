@@ -3,8 +3,8 @@ Statistics library in pure JavaScript
 
 ### Functions ###
 
-mean(inputArray) — the mean of the input array
-geomen(inputArray)
+mean(inputArray) - the mean
+geomen(inputArray) - sd
 trimean(inputArray)
 median(inputArray)
 range(inputArray)
