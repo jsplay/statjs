@@ -1,6 +1,8 @@
 # statjs
 Statistics library in pure JavaScript
 
+### Functions ###
+
 mean(inputArray) — the mean of the input array
 geomen(inputArray)
 trimean(inputArray)
